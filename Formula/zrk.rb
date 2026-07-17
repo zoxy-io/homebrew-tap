@@ -10,23 +10,23 @@ class Zrk < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.1/zrk-0.3.1-aarch64-macos.tar.gz"
-      sha256 "57734433d23dcdea038211dc2d3c56913046d41a5c1608c4217acbb2d6944006"
+      url "https://github.com/floatdrop/zrk/releases/download/v0.3.2/zrk-0.3.2-aarch64-macos.tar.gz"
+      sha256 "0bca781b95bc14527f8260bc84e8ef744ee3b137f784f1e00d2ad25333dd5e7c"
     end
     on_intel do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.1/zrk-0.3.1-x86_64-macos.tar.gz"
-      sha256 "894229b4b2416853d9e99884c90ba153a7d226d8568730579ac0d5e564309e46"
+      url "https://github.com/floatdrop/zrk/releases/download/v0.3.2/zrk-0.3.2-x86_64-macos.tar.gz"
+      sha256 "33ad12ef04943aa0ad49cc853793878d664fe199cbf6e51d01912f701734e1fa"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.1/zrk-0.3.1-aarch64-linux.tar.gz"
-      sha256 "e64e4b000a15938cb539385fc3dc5641fac821acd933d90f852d0f0faea9e755"
+      url "https://github.com/floatdrop/zrk/releases/download/v0.3.2/zrk-0.3.2-aarch64-linux.tar.gz"
+      sha256 "437b5de8c6e15c92805437ec87ef228ebade6526312f868b15f89655ea23d495"
     end
     on_intel do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.1/zrk-0.3.1-x86_64-linux.tar.gz"
-      sha256 "de9915f744d0865e63fbf22202fdd370ef5d2e6b2d6240fcace7f51d26076227"
+      url "https://github.com/floatdrop/zrk/releases/download/v0.3.2/zrk-0.3.2-x86_64-linux.tar.gz"
+      sha256 "884f96b11eed642ea783bf07a1bc5013b31f8e7fd917de5bbdabe2682d5618b4"
     end
   end
 
