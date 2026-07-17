@@ -1,6 +1,6 @@
 class Zoxy < Formula
   desc "Zero-allocation L4/L7 edge proxy in Zig"
-  homepage "https://github.com/zoxy-io/zoxy"
+  homepage "https://zoxy.io/"
   # No tagged releases yet; pinned to a known-good commit on main.
   url "https://github.com/zoxy-io/zoxy/archive/2ae9ee9e8466b8f2a28a30859ba24c1f401f32ef.tar.gz"
   version "0.0.0"

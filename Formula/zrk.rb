@@ -1,10 +1,10 @@
 class Zrk < Formula
   desc "Constant-throughput HTTP load generator in Zig"
-  homepage "https://github.com/floatdrop/zrk"
+  homepage "https://zoxy.io/zrk"
   license "MIT"
 
   livecheck do
-    url :homepage
+    url "https://github.com/floatdrop/zrk"
     strategy :github_latest
   end
 
