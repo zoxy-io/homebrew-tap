@@ -1,7 +1,7 @@
 # homebrew-tap
 
 Homebrew formulae for [zoxy](https://github.com/zoxy-io/zoxy) and
-[zrk](https://github.com/floatdrop/zrk).
+[zrk](https://github.com/zoxy-io/zrk).
 
 ## Install
 
@@ -16,7 +16,7 @@ brew install zrk    # constant-throughput HTTP load generator (prebuilt binaries
 | Formula | Source | Notes |
 | ------- | ------ | ----- |
 | `zoxy` | built from a pinned commit of `zoxy-io/zoxy` | no tagged releases upstream yet; `brew install --HEAD zoxy` builds `main` |
-| `zrk` | prebuilt release binaries from `floatdrop/zrk` | macOS/Linux, arm64 + x86_64 |
+| `zrk` | prebuilt release binaries from `zoxy-io/zrk` | macOS/Linux, arm64 + x86_64 |
 
 ## Updating
 
