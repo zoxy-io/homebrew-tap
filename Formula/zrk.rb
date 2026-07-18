@@ -4,29 +4,29 @@ class Zrk < Formula
   license "MIT"
 
   livecheck do
-    url "https://github.com/floatdrop/zrk"
+    url "https://github.com/zoxy-io/zrk"
     strategy :github_latest
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.5/zrk-0.3.5-aarch64-macos.tar.gz"
-      sha256 "07d79d9255bccd3871dba179155b135c97366d21bb9daf585d3902806d0fa7ba"
+      url "https://github.com/zoxy-io/zrk/releases/download/v0.3.6/zrk-0.3.6-aarch64-macos.tar.gz"
+      sha256 "8c08d0b3f85c676339fb849a2d88ddc1c0d041da4505208b6629b0e701f7e3e7"
     end
     on_intel do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.5/zrk-0.3.5-x86_64-macos.tar.gz"
-      sha256 "58312c4eab89566c49175cff78f18f7bf1dd3dc4ac7f3ead01e6447b7b7fdcf6"
+      url "https://github.com/zoxy-io/zrk/releases/download/v0.3.6/zrk-0.3.6-x86_64-macos.tar.gz"
+      sha256 "9b6b9755f13fc60a3a43a53846b434cb7af2c38633f1cdffdbad1af4339b8937"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.5/zrk-0.3.5-aarch64-linux.tar.gz"
-      sha256 "e563b514e51b3b2737e4fbb14a1e74970518743df54f09cb9127a9870eb366cb"
+      url "https://github.com/zoxy-io/zrk/releases/download/v0.3.6/zrk-0.3.6-aarch64-linux.tar.gz"
+      sha256 "60574c8ceeb78ac66f01ca5f19ad1a53393d564e1cfca2ca961a94f2c10f39a7"
     end
     on_intel do
-      url "https://github.com/floatdrop/zrk/releases/download/v0.3.5/zrk-0.3.5-x86_64-linux.tar.gz"
-      sha256 "1f8a17986c19a151fdb8c375a1289815139c3eca203321ca5f0b4f46eec4aa77"
+      url "https://github.com/zoxy-io/zrk/releases/download/v0.3.6/zrk-0.3.6-x86_64-linux.tar.gz"
+      sha256 "006caed014aefc56e875c0614e9a7d6a09d684bf318ecb66d0103ab7f18484ab"
     end
   end
 
