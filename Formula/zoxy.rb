@@ -10,23 +10,23 @@ class Zoxy < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.1/zoxy-0.0.1-aarch64-macos.tar.gz"
-      sha256 "2faf21ee0aead6f4d32f97f7935654f5018429be137ede90363b624b1dc12841"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.2/zoxy-0.0.2-aarch64-macos.tar.gz"
+      sha256 "0c0e3ce1c899c4a72b75dc6eceec0426524d71fa7955351b91dc03679e5263da"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.1/zoxy-0.0.1-x86_64-macos.tar.gz"
-      sha256 "3aaf9a5e70ceb49fb5447f0030e4fd9afc431dfa58a93fa47bdf3454a10a44d5"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.2/zoxy-0.0.2-x86_64-macos.tar.gz"
+      sha256 "2f5a2baf1ad75e124e8193a39efbfd2483f22510abde0427f673b5fdf6c2ce3b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.1/zoxy-0.0.1-aarch64-linux.tar.gz"
-      sha256 "6fefd93fa71143b770fddc702f543c84019dfe1ee729d68e849363b92bd8a07b"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.2/zoxy-0.0.2-aarch64-linux.tar.gz"
+      sha256 "4f275d8c576ab1f65f8536e78e176d55d5e790957773483ecbfad4cacb8853ba"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.1/zoxy-0.0.1-x86_64-linux.tar.gz"
-      sha256 "4ea5de3c123096d88405fb6363dad72ddf9feb16e6eb53c0a80b1909eeabd2c2"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.0.2/zoxy-0.0.2-x86_64-linux.tar.gz"
+      sha256 "5b58aaf68b9407231f65f3232f38ac0350f937cd6624de545b7c4ab6ab70873c"
     end
   end
 
