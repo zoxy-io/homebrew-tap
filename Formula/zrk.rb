@@ -10,23 +10,23 @@ class Zrk < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.0/zrk-1.3.0-aarch64-macos.tar.gz"
-      sha256 "0cb69ff9c6f6c1c8995dd6d286e58f355db1a835951567b0620b6da781bdb3c9"
+      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.1/zrk-1.3.1-aarch64-macos.tar.gz"
+      sha256 "360ff9864a94266912c7d0d9ab98f46fe16d8b43fe5dd1fd1aac2801bd2d6d51"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.0/zrk-1.3.0-x86_64-macos.tar.gz"
-      sha256 "9e2af5c85b18f382a75838b9f20676c32963f03a8351108ea884ab71feab33f6"
+      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.1/zrk-1.3.1-x86_64-macos.tar.gz"
+      sha256 "1179edf10319de75e7857bcbfba8b6a093455250c5b7721e45354871bd166ebf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.0/zrk-1.3.0-aarch64-linux.tar.gz"
-      sha256 "9921f9b3db5cf6073b6851dafa1ef1819a9022e7f64b3012b161c7375ee294af"
+      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.1/zrk-1.3.1-aarch64-linux.tar.gz"
+      sha256 "e77404f87383c5cc78be3426c777b0b7b88ab667845350714da2b9f3acc92809"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.0/zrk-1.3.0-x86_64-linux.tar.gz"
-      sha256 "9e795206920bb322f87c2ed9e7fbe8253344827cecb3e6f5d917075c30dc46d9"
+      url "https://github.com/zoxy-io/zrk/releases/download/v1.3.1/zrk-1.3.1-x86_64-linux.tar.gz"
+      sha256 "d19eea743b29f6ae32a90f2116cb26f87ad8008bf1a6498cb546a5c3a9eb93ee"
     end
   end
 
