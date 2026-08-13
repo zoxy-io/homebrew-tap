@@ -8,25 +8,26 @@ class Zoxy < Formula
     strategy :github_latest
   end
 
+  # Apple Silicon only. There is no Intel macOS bottle from
+  # 0.2.0 on: building one needs an Intel macOS runner, and
+  # GitHub's is retired. Homebrew on an Intel Mac will report
+  # that no bottle is available rather than download one that
+  # cannot run, which is the failure worth having.
   on_macos do
     on_arm do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.1.0/zoxy-0.1.0-aarch64-macos.tar.gz"
-      sha256 "3f41d81b89915a34fc2fd5c5ebbda7c59c1349cc6086a9fe78f96ac04340b037"
-    end
-    on_intel do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.1.0/zoxy-0.1.0-x86_64-macos.tar.gz"
-      sha256 "5246f626be30ac2b1ababa141bda35eb0eb3bc799672c7f1b546a564028b5809"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.2.0/zoxy-0.2.0-aarch64-macos.tar.gz"
+      sha256 "9221c536d81438909986f79bde492ecda9165ef9645e89641ea003a243fed48b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.1.0/zoxy-0.1.0-aarch64-linux.tar.gz"
-      sha256 "d3fcd02eab7924507185d1cafa9f900eeff1bbf6b5510767701d16ef7580dfc5"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.2.0/zoxy-0.2.0-aarch64-linux.tar.gz"
+      sha256 "25b74fcb6ae6cf2ea11e0a8f071e044f5ce6daeb7fbbeb6bf7e3eda42cd4e91f"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v0.1.0/zoxy-0.1.0-x86_64-linux.tar.gz"
-      sha256 "46d5537597b94d528e117576c61ea80acc9863aa7b60a5463c08a14a28fa8636"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v0.2.0/zoxy-0.2.0-x86_64-linux.tar.gz"
+      sha256 "216782dc1d440710d818ca0e7792f5e89a6dbf470614996df0b3115bf7e8399b"
     end
   end
 
