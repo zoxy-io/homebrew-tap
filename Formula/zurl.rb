@@ -10,23 +10,23 @@ class Zurl < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.1/zurl-0.0.1-aarch64-macos.tar.gz"
-      sha256 "4fcfd8726d4b948278b7838bdb9cb2409467ab4de2143218387f8339a23bae37"
+      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.2/zurl-0.0.2-aarch64-macos.tar.gz"
+      sha256 "61d732b00d341b9d1679ab90e88119e18e4915cd03ff0f91a5039d7c02e55371"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.1/zurl-0.0.1-x86_64-macos.tar.gz"
-      sha256 "e3aec53b73bc0494896d4ffde51ec41d7091d4b3be9a7397a1196311e1fcc8e2"
+      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.2/zurl-0.0.2-x86_64-macos.tar.gz"
+      sha256 "e8e7887db10ff324ae54d9b8aa1bd160e965886d971e9c95b2b2ce89c9a32842"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.1/zurl-0.0.1-aarch64-linux.tar.gz"
-      sha256 "b394e4bf34b3664cd2ede49601d31c23508df7edfbdaf86a580d1eecc6f180fd"
+      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.2/zurl-0.0.2-aarch64-linux.tar.gz"
+      sha256 "97f653a2e550c87f12ab0fae5c7dba96f931aa68a407d702b7e46b01f937b118"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.1/zurl-0.0.1-x86_64-linux.tar.gz"
-      sha256 "b2d11465a91f2ea1c40cf28a7d1f7ae177ee7a95febe6c50e6610852f84a628a"
+      url "https://github.com/zoxy-io/zurl/releases/download/v0.0.2/zurl-0.0.2-x86_64-linux.tar.gz"
+      sha256 "8b15324e291907964a7331fd3347980ce6b6991bd654f98aa6a2822ea6dcefc1"
     end
   end
 
