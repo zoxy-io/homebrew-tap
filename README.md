@@ -7,10 +7,16 @@ Homebrew formulae for [zoxy](https://github.com/zoxy-io/zoxy),
 
 ```sh
 brew tap zoxy-io/tap
-brew install zoxy   # zero-allocation L4/L7 edge proxy (prebuilt binaries)
-brew install zrk    # constant-throughput HTTP load generator (prebuilt binaries)
-brew install zurl   # std.Io-native HTTP/1.1 client (built from source, needs zig)
+brew install zoxy               # zero-allocation L4/L7 edge proxy (prebuilt binaries)
+brew install zrk                # constant-throughput HTTP load generator (prebuilt binaries)
+brew install zoxy-io/tap/zurl   # std.Io-native HTTP/1.1 client (built from source, needs zig)
 ```
+
+`zurl` needs the fully-qualified `zoxy-io/tap/zurl` name: `homebrew/core` already has
+an unrelated `zurl` (fanout's ZeroMQ-based HTTP/WebSocket proxy worker), and a bare
+`brew install zurl` resolves there instead, pulling in `qtbase`/`zeromq` and five
+other dependencies that have nothing to do with this one. `zoxy` and `zrk` have no
+such collision.
 
 ## Formulae
 
@@ -18,7 +24,7 @@ brew install zurl   # std.Io-native HTTP/1.1 client (built from source, needs zi
 | ------- | ------ | ----- |
 | `zoxy` | prebuilt release binaries from `zoxy-io/zoxy` | macOS/Linux, arm64 + x86_64 |
 | `zrk` | prebuilt release binaries from `zoxy-io/zrk` | macOS/Linux, arm64 + x86_64 |
-| `zurl` | built from a pinned commit of `zoxy-io/zurl` | no tagged releases upstream yet; `brew install --HEAD zurl` builds `main` |
+| `zurl` | built from a pinned commit of `zoxy-io/zurl` | no tagged releases upstream yet; `brew install --HEAD zoxy-io/tap/zurl` builds `main`; name collides with `homebrew/core/zurl`, see below |
 
 `zoxy` and `zrk` each have a `.github/workflows/release.yml` in their own repo
 that pushes here automatically on a tag, using a write-access deploy key
