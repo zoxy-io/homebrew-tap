@@ -15,23 +15,23 @@ class Zoxy < Formula
   # cannot run, which is the failure worth having.
   on_macos do
     on_arm do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v1.2.2/zoxy-1.2.2-aarch64-macos.tar.gz"
-      sha256 "205bcb46e8162e2afc61259a4e3e2a8235aeb619ce12203f91f72302bfc6560b"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v1.3.0/zoxy-1.3.0-aarch64-macos.tar.gz"
+      sha256 "2f346c41bab2d546b3a60bb2290dae6d7fd2d9c20b21e7ca419bdfd00164acb8"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v1.2.2/zoxy-1.2.2-x86_64-macos.tar.gz"
-      sha256 "4e2dcd9f2189355594889f4e7c166448efe2cf07b40d24175bdb92a6f22afbfe"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v1.3.0/zoxy-1.3.0-x86_64-macos.tar.gz"
+      sha256 "75cef86fe4188d575957bd1ed72f9576f1a6ebdb9b9512e774a11c06d70975d0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v1.2.2/zoxy-1.2.2-aarch64-linux.tar.gz"
-      sha256 "29c52c3883c0ed716b99b7fe4d051e85e5993632d00944dae56e9bd1a2ea55a5"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v1.3.0/zoxy-1.3.0-aarch64-linux.tar.gz"
+      sha256 "aa5ac0e3839a2cab07462acae87fcf372a17062d6bc0e858218b683c637d27ab"
     end
     on_intel do
-      url "https://github.com/zoxy-io/zoxy/releases/download/v1.2.2/zoxy-1.2.2-x86_64-linux.tar.gz"
-      sha256 "b63bfa08e00161379fa2cac5bb230c7de31f35ad25af53f1edff33cfa5f70a7f"
+      url "https://github.com/zoxy-io/zoxy/releases/download/v1.3.0/zoxy-1.3.0-x86_64-linux.tar.gz"
+      sha256 "ddd7242eebaa2e642ad70d487863ad373cb8d384ed94657af9835dbedd810d7b"
     end
   end
 
